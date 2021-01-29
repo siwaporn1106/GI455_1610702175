@@ -11,23 +11,23 @@ public class HW01 : MonoBehaviour
 
     public void node()
     {
-        if (info == " Aston Martin One ") //InputField 1
+        if (info == "Aston Martin One") //InputField 1
         {
             found();
         }
-        else if (info == " Kawasaki ") //InputField 2
+        else if (info == "Kawasaki") //InputField 2
         {
             found();
         }
-        else if (info == " Lamborghini ") //InputField 3
+        else if (info == "Lamborghini") //InputField 3
         {
             found();
         }
-        else if (info == " Mercedes - Benz ") //InputField 4
+        else if (info == "Mercedes - Benz") //InputField 4
         {
             found();
         }
-        else if (info == " Porsche ") //InputField 5
+        else if (info == "Porsche") //InputField 5
         {
             found();
         }
@@ -45,7 +45,7 @@ public class HW01 : MonoBehaviour
 
     void found()
     {
-        ad.text = "[ "+ info + " ]" + " is found.";
+        sa.text = "[ "+ info + " ]" + " is found.";
     }//found
 
     public void ClearForm()
